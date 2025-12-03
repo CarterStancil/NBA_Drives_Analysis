@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project analyzes **NBA player tracking drives data** from the 2024–25 season to explore how player roles and playstyles influence team success.  
-By segmenting players into three tiers — **Superstars**, **Secondary Stars**, and **Role Players** — this analysis examines how key performance metrics differ between **wins** and **losses**and which factors most strongly drive **scoring efficiency** and **team outcomes**.
+By segmenting players into three tiers — **Superstars**, **Secondary Stars**, and **Role Players** — this analysis examines how key performance metrics differ between **wins** and **losses** and which factors most strongly drive **scoring efficiency** and **team outcomes**.
 
 The project progresses through data cleaning, exploration, segmentation, statistical testing, and predictive modeling to uncover actionable insights into modern basketball analytics.
 
