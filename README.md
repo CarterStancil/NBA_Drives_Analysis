@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project analyzes **NBA player tracking drives data** from the 2024–25 season to explore how player roles and playstyles influence team success.  
-By segmenting players into three tiers — **Superstars**, **Secondary Stars**, and **Role Players** — this analysis examines how key performance metrics differ between **wins** and **losses**, and what factors most strongly drive **scoring efficiency** and **team outcomes**.
+By segmenting players into three tiers — **Superstars**, **Secondary Stars**, and **Role Players** — this analysis examines how key performance metrics differ between **wins** and **losses**and which factors most strongly drive **scoring efficiency** and **team outcomes**.
 
 The project progresses through data cleaning, exploration, segmentation, statistical testing, and predictive modeling to uncover actionable insights into modern basketball analytics.
 
@@ -143,11 +143,10 @@ These results highlight that **scoring variability increases with player respons
 
 ## Key Insights & Takeaways
 
-- Team success correlates more strongly with **assists, passes, and balance** than with pure scoring volume.  
-- **Superstars win** when usage decreases slightly and teammates contribute more offensively.  
-- **Secondary Stars** thrive as facilitators, linking scoring and playmaking.  
-- **Role Players** maintain steady output independent of result, emphasizing reliability over volume.  
-- Predictive models confirm that **consistency and team integration**, rather than isolation scoring, are hallmarks of winning performance.
+- **Overall drive rates did not universally increase in wins**; instead, the effect depended on player tier. Superstars recorded fewer Drives in wins, suggesting that reduced dependency on high-usage creation   supports team success. Secondary Stars, however, showed modest increases in Drives linked to playmaking and ball movement. Role Players remained largely stable across outcomes. 
+- Player tier **was** a major determinant of drive volume. Superstars consistently recorded the highest Drive rates, followed by Secondary Stars, with Role Players generating the fewest. ANOVA and Tukey HSD results confirmed statistically significant differences (p < 0.05) across all tiers. 
+- **A consistent relationship between drives and the success rate of the team emerged, but only when accounting for player role**. For Superstars, fewer Drives were associated with wins, indicating that balanced offensive distribution is a stronger predictor of team success rather than increased self-creation. For Secondary Stars, more Drives and higher assist involvement correlated with wins. Role Players showed no meaningful drive–success relationship, reflecting consistent usage regardless of outcome. 
+- **Superstars' drive patterns had the strongest connection to team outcomes**. Increased Drives, FGA, and Points from Superstars were characteristic of losses. In contrast, Secondary Stars impacted success through increased facilitation (assists, passes) and selective drive usage. Role Players had the least influence, with performance generally consistent across wins and losses.  
 
 ---
 
